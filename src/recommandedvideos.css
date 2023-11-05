@@ -1,0 +1,13 @@
+.recommandedvideos{
+    flex:0.8;
+ 
+}
+h1{
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.video__cards{
+    display: flex;
+    flex-wrap: wrap;
+}

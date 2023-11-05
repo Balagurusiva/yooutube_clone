@@ -1,0 +1,21 @@
+.ChannelRow{
+    display: flex;
+    align-items: center;
+}
+
+.channelRow__detail{
+    display: flex;
+    flex-direction: column;
+}
+
+.channelRow__avatar{
+    height: 120px !important;
+    width: 120px !important;
+    margin:10px 60px;
+}
+
+.channelRow__detail >h4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

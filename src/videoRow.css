@@ -1,0 +1,41 @@
+.searchpage__videocard{
+    display: flex;
+    margin-top: 10px;
+    height: 140px;
+    overflow: hidden;
+}
+
+.searchpage__videoimg{
+    width: 246px;
+    height: 138px;
+     
+}
+
+.searchpage__videodetail{
+    margin-top: 5px;
+    margin-left: 14px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+ 
+.searchpage__videodetail >p{
+    color:#606060;
+}
+
+.discription{
+    margin-top: 10px;
+}
+
+.subnum{
+    color:blue;
+}
+
+.sub{
+    background-color: lightgray;
+    padding: 2px;
+}
+
+.detail{
+    margin-top: 5px;
+}

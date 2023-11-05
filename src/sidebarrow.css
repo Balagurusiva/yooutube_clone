@@ -1,0 +1,39 @@
+.sidebar__rows{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.sidebarrow__icon{
+    font-size:large !important;
+    color: #606060;
+}
+
+.sidebarrow__title{
+    font-size: 13px;
+    font-weight: 600;
+    flex:1;
+    margin-left:15px;
+}
+
+.sidebar__rows:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.sidebar__rows:hover >.sidebarrow__icon{
+    color: red;
+    font-size: 14px;
+}
+
+.sidebar__rows:hover > .sidebarrow__title{
+    font-size: 14px;
+}
+
+.sidebar__rows.selected{
+    background-color: lightgray;
+}
+
+.sidebar__rows.selected >.sidebarrow__icon{
+    color: red;
+}

@@ -1,0 +1,26 @@
+.video__card{
+    width: 270px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 15px;
+    overflow: hidden;
+}
+
+.video__card >img{
+    width: 250px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.tambnail__icons{
+    display: flex;
+    
+}
+
+.tambnail__detail{
+    margin-left: 10px;
+}
+
+.tambnail__detail > h5{
+     color: #606060;
+}

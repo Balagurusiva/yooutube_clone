@@ -1,0 +1,15 @@
+.search__video{
+    flex:0.8;
+    padding: 20px 20px;
+}
+
+.Search__filter{
+    display: flex;
+    align-items: center;
+    columns: #606060;
+    font-size: x-small !important;
+}
+
+.Search__filter > h2{
+    margin-left: 10px;
+}
